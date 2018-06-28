@@ -20,4 +20,16 @@ $ git clone https://github.com/filet-mign0n/tag-summary && \
   cd tag-summary && \
   python3 app.py 
 ```
-open http://127.0.0.1:8080 in your browser
+  open http://127.0.0.1:8080 in your browser
+
+### Project Structure
+```
+├── app.py
+├── static
+│   ├── css
+│   │   └── index.css
+│   └── js
+│       └── index.js
+└── template
+    └── index.html
+```
