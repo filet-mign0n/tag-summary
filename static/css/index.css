@@ -1,0 +1,68 @@
+html,body {
+  background-color: #101010;
+  color: #ffffff;
+  margin:0;
+  padding:0;
+}
+
+div {
+  position: absolute;
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  border-left: 0;
+  z-index: 1;
+}
+
+.url-fetch {
+  font-size: 14px;
+  background-color: darkgrey;
+  color: #101010;
+  display: inline-block;
+  height: auto;
+  top: 0;
+}
+
+#url-form {
+  margin: 3px 0px 3px 3px;
+}
+
+input#url-field {
+  width: 50%;
+}
+.summary {
+  background-color: #eee;
+  overflow: visible;
+  top: 27px;
+}
+
+#tags-ct {
+  position: relative;
+}
+
+.tag-item {
+  float: left;
+}
+
+button:active.tag-item,button:focus.tag-item {
+  background:greenyellow;
+  outline:0;
+}
+
+button:hover.tag-item {
+  background:#8fbe48;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  top: 80px;
+  left: 10px;
+  position: absolute;
+}

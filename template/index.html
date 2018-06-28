@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  <title>Summarize HTML Tags</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'unsafe-inline' 'self'">
+  <meta name="description" content="Parse HTML Tag from URL">
+  <link rel="stylesheet" type="text/css" href="static/css/index.css">
+  <script type="text/javascript" src="static/js/index.js"></script>
+</head>
+
+<body>
+  <div class="navbar url-fetch">
+    <form id="url-form">
+      <label for="url-field">Summarize HTML Tags:</label>
+      <input id="url-field" name="url-field" value="http://example.com">
+      <input type="submit" value="fetch HTML">
+    </form>
+  </div>
+
+  <div class="navbar summary">
+    <div id=tags-ct></div>
+  </div>
+
+  <div class="main">
+    <pre>
+      <code id=src-html></code>
+    </pre>
+  </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+# Python3
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Vim swap files
+*.swp
+*.swo
+
+# OS specific & log files
+wsgi.py
+*.log
+.DS_Store
+.DS_Store?
