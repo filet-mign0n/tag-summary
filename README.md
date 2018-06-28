@@ -18,5 +18,6 @@ code view
 $ git clone https://github.com/filet-mign0n/tag-summary && \
   pip3 install flask && \
   cd tag-summary && \
-  python3 app.py
+  python3 app.py 
 ```
+open http://127.0.0.1:8080 in your browser
