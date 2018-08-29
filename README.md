@@ -1,7 +1,7 @@
 # Tag Summary
 
 ### Description 
-Web app that summarizes HTML tags of websites, see live version here: http://elasti.city
+Web app that summarizes HTML tags of websites.
 - Users can enter a URL of a page to fetch
 - The web app fetches the HTML of the page and displays the source to the user
 - A summary of the document is displayed, listing which tags are present in the HTML and
